@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pleb.PowershellScripts", "Pleb.PowershellScripts\Pleb.PowershellScripts.csproj", "{3B7207D0-A6F7-4858-99AF-5806DE3F117A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pleb.PowershellScripts.Tests", "Pleb.PowershellScripts.Tests\Pleb.PowershellScripts.Tests.csproj", "{AC0F79B2-DDBC-4F03-8E63-52AE46CE25D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A995C753-B467-48D3-BAFF-374B2835ACA6}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\AssemblyInfoShared.cs = Solution Items\AssemblyInfoShared.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B7207D0-A6F7-4858-99AF-5806DE3F117A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7207D0-A6F7-4858-99AF-5806DE3F117A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7207D0-A6F7-4858-99AF-5806DE3F117A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7207D0-A6F7-4858-99AF-5806DE3F117A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0F79B2-DDBC-4F03-8E63-52AE46CE25D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0F79B2-DDBC-4F03-8E63-52AE46CE25D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0F79B2-DDBC-4F03-8E63-52AE46CE25D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0F79B2-DDBC-4F03-8E63-52AE46CE25D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

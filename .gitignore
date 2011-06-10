@@ -1,0 +1,14 @@
+Thumbs.db
+*.obj
+*.user
+*.suo
+*.bak
+*.cache
+*.log
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+obj/
+_ReSharper*/
+Builds/*Tests*
+Builds/[Nn]unit*
