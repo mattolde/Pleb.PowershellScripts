@@ -6,7 +6,12 @@ namespace Pleb.PowershellScripts
 {
     public static class DirectoryUtilities
     {
-        public static void RemoveDirectoriesWhereSame(string pathOfDirectories, string pathWithDirectoriesToRemove)
+        public static void DeleteFilesInDirectory(string pathToDirectory)
+        {
+            Directory.GetFiles(pathToDirectory).ToList().ForEach(File.Delete);
+        }
+
+        public static void RemoveDirectoriesWithSameName(string pathOfDirectories, string pathWithDirectoriesToRemove)
         {
             if (string.IsNullOrEmpty(pathOfDirectories) || !Directory.Exists(pathOfDirectories))
             {

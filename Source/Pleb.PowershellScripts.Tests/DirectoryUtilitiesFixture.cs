@@ -35,7 +35,7 @@ namespace Pleb.PowershellScripts.Tests
         public void RunRemoveDirectoriesWhereSame()
         {
             //TODO: Make a better unit test for this.
-            //DirectoryUtilities.RemoveDirectoriesWhereSame(@"F:\Open Source\Chillow\Lib", @"F:\Aid\Aid.Core\Lib");
+            //DirectoryUtilities.RemoveDirectoriesWithSameName(@"F:\Open Source\Chillow\Lib", @"F:\Aid\Aid.Core\Lib");
         }
 
         [Test]
